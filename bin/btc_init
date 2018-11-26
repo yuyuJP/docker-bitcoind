@@ -28,6 +28,7 @@ if [ ! -e "$HOME/.bitcoin/bitcoin.conf" ]; then
     rpcpassword=somepass
 
     zmqpubrawtx=tcp://0.0.0.0:3000
+    zmqpubrawblock=tcp://0.0.0.0:3000
 EOF
 
 fi
